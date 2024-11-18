@@ -6,6 +6,7 @@ import Pricing from "./sections/Pricing";
 import Testimonials from "./sections/Testimonials";
 import Footer from "./sections/Footer";
 import Download from "./sections/Download";
+import Faq from "./sections/Faq";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Features />
       <Pricing />
+      <Faq />
       <Testimonials />
       <Download />
       <Footer />
