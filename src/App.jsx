@@ -1,8 +1,11 @@
-import { useState } from "react";
 import "./App.css";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Features from "./sections/Features";
+import Pricing from "./sections/Pricing";
+import Testimonials from "./sections/Testimonials";
+import Footer from "./sections/Footer";
+import Download from "./sections/Download";
 
 function App() {
   return (
@@ -10,6 +13,10 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <Pricing />
+      <Testimonials />
+      <Download />
+      <Footer />
     </main>
   );
 }
